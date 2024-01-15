@@ -1,0 +1,29 @@
+{% extends "base.html" %} {% block titulo %} Inicio {% endblock %} {% block
+contenido %}
+
+<section>
+  <nav class="navHome">
+    <span><a href="/"><b>Home</b></a></span>
+  </nav>
+  <div class="divPrincipal">
+    {% if iniciado %}
+    <h2>
+      Haz iniciado sesion correctamente!
+    </h2>
+    {% endif %}
+
+    {% if registro %}
+    <h2> Gracias por formar parte de nuestra base de datos!
+    </h2>
+    {% endif %}
+  </div>
+  <img id="imgPrincipal" src="/static/img/ilustracion.jpg" alt="ilustracion" />
+  <footer class="footerPrincipal">
+    <h4>
+      Esto es parte del proyecto del curso Programación Python... <br />
+      Es un proyecto en contrucción!!!
+    </h4>
+  </footer>
+</section>
+
+{% endblock %}

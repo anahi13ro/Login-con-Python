@@ -1,0 +1,97 @@
+body {
+	background-color: #E6E6FA;
+	color: black;
+	font-family: Tahoma, Verdana, sans-serif;
+	margin: 20px;
+	text-align: center;
+}
+
+#img {
+	width: 50%;
+}
+.navHome {
+	display: flex;
+	text-align: start;
+
+}
+.titulo1 {
+	color: black;
+	font-size: 50px;
+}
+
+form { 
+	max-width: 500px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+ }
+
+ label {
+	display: block;
+	margin-top: 4px;
+	text-align: start;
+}
+
+ input {
+	width: 100%;
+	padding: 5px;
+	margin: 2px;
+	box-sizing: border-box;
+}
+
+.button {
+	background-color: #483D8B;
+	color: #E6E6FA;
+	width: 50%;
+	margin-top: 8px;
+	border-radius: 15px;
+}
+
+a {
+	color: mediumpurple;
+	text-decoration: none;
+}
+
+.mensaje {
+	border: 1px solid #E6E6FA;
+	background-color: #c1baed;
+	font-size: 18px;
+	max-width: 500px;
+	margin: 20px auto;
+	border-radius: 15px;
+}
+
+.divPresentacion {
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+}
+
+#botonIngresar {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+
+.divPrincipal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #E6E6FA;
+	background: #c1baed;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#imgPrincipal {
+	width: 40%
+}
+.footerPrincipal {
+	align-content: end;
+	border: 1px solid white;
+	background-color: beige;
+}
